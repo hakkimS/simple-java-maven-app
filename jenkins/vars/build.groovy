@@ -1,3 +1,4 @@
 def call(){
-sh ''' mvn -B -DskipTests clean package '''
+sh '''#!/usr/bin/env bash 
+mvn -B -DskipTests clean package '''
 }
